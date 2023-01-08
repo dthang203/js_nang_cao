@@ -37,10 +37,10 @@ console.log(main, secondary);
 //lấy phần tử ở 2 mục khác nhau
 const [starter, mainCourse] = retaurant.order(2,0);
 console.log(starter, mainCourse);
-//cấu trúc huỷ lồng nhau
+//các đối tượng lồng nhau
 const nested = [2,4,[5,6]];
 const[i, ,[j,k]] = nested;
 console.log(i,j,k);
-//
+//ghi giá trị mặc định cho biến
 const[p=1,q=1,r=1] = [8,9];
 console.log(p,q,r);
