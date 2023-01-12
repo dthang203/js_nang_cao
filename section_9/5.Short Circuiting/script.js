@@ -53,6 +53,10 @@ console.log(3 && 'Lonas');      //trả về 0
 console.log(7 && 'Hanna');     //trả về Hanna
 console.log('Hello' && 23 && null && 'abc'); //trả về null
 
-
+//kiểm tra xem giá trị có thực sự tồn tại hay không
+if (retaurant.orderPizza) {
+    retaurant.orderPizza('mushrooms', 'spinach')
+}
+retaurant.orderPizza && retaurant.orderPizza('mushrooms', 'spinach')
 
 
